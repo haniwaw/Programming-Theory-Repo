@@ -5,9 +5,39 @@ using UnityEngine;
 public abstract class ShapeAction : MonoBehaviour
 {
     protected Rigidbody shapeRb;
-    public float jumpSpeed = 2f;
-    public float actionPower = 1;
-    
+    protected float m_JumpSpeed = 200f; // add new private backing field
+    public float JumpSpeed
+    {
+        get { return m_JumpSpeed; } // getter returns backing field
+        set
+        {
+            if (value < 0.0f)
+            {
+                Debug.LogError("You can't set a negative speed!");
+            }
+            else
+            {
+                m_JumpSpeed = value; // original setter now in if/else statement
+            }
+        } // setter uses backing field
+    }
+    protected float m_actionPower = 1f;
+    public float actionPower
+    {
+        get { return m_actionPower; } // getter returns backing field
+        set
+        {
+            if (value < 0.0f)
+            {
+                Debug.LogError("You can't set a negative power!");
+            }
+            else
+            {
+                m_actionPower = value; // original setter now in if/else statement
+            }
+        } // setter uses backing field
+    }
+
 
     private void Start()
     {
@@ -16,7 +46,7 @@ public abstract class ShapeAction : MonoBehaviour
 
     public void Jump()
     {
-        shapeRb.AddForce(Vector3.up * jumpSpeed);
+        shapeRb.AddForce(Vector3.up * m_JumpSpeed);
     }
 
     public abstract void Action();

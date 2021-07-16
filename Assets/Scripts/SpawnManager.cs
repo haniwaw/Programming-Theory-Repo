@@ -11,22 +11,23 @@ public class SpawnManager : MonoBehaviour
 
     public void CreateCube()
     {
-        Destroy(GameObject.FindGameObjectWithTag("Shape"));
-        GameObject Obj = Instantiate(cubePrefab, centerPos.transform.position, cubePrefab.transform.rotation);
-        ActionManager.shape = Obj.GetComponent<ShapeAction>();
+        CreateShape(cubePrefab);
     }
 
     public void CreateSphere()
     {
-        Destroy(GameObject.FindGameObjectWithTag("Shape"));
-        GameObject Obj = Instantiate(spherePrefab, centerPos.transform.position, spherePrefab.transform.rotation);
-        ActionManager.shape = Obj.GetComponent<ShapeAction>();
+        CreateShape(spherePrefab);
     }
 
     public void CreateCylinder()
     {
+        CreateShape(cylinderPrefab);
+    }
+
+    void CreateShape(GameObject Obj)
+    {
         Destroy(GameObject.FindGameObjectWithTag("Shape"));
-        GameObject Obj = Instantiate(cylinderPrefab, centerPos.transform.position, cylinderPrefab.transform.rotation);
-        ActionManager.shape = Obj.GetComponent<ShapeAction>();
+        GameObject target = Instantiate(Obj, centerPos.transform.position, Obj.transform.rotation);
+        ActionManager.shape = target.GetComponent<ShapeAction>();
     }
 }
