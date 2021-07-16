@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5212016503848312087}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Shape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,3 +125,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1923b84755a514e4eab392318d113e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpSpeed: 2
