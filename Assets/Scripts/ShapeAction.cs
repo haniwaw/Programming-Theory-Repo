@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShapeAction : MonoBehaviour
+public abstract class ShapeAction : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Rigidbody shapeRb;
+    public float jumpSpeed = 2f;
+    
+
+    private void Start()
     {
-        
+        shapeRb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Jump()
     {
-        
+        shapeRb.AddForce(Vector3.up * jumpSpeed);
     }
+
+    public abstract void Action();
 }
