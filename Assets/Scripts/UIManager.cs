@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -49,5 +50,10 @@ public class UIManager : MonoBehaviour
         Destroy(GameObject.FindGameObjectWithTag("Shape"));
         GameObject target = Instantiate(Obj, centerPos.transform.position, Obj.transform.rotation);
         shape = target.GetComponent<ShapeAction>();
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }
