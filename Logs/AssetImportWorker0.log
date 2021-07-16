@@ -275,3 +275,89 @@ Received Import Request.
 Start importing Assets/Prefabs/Sphere.prefab using Guid(ccce103fce1673246b194f8e46b22ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1e7aca8429ea1a13d579847ce65a0f') in 0.015416 seconds
   Import took 0.018103 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1621.224641 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(a0a9447878208a64bbaf3c89b483cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(a0a9447878208a64bbaf3c89b483cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3304c3d1875e54050bf61525b0713f71') in 0.008951 seconds
+  Import took 0.012445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000928 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(a0a9447878208a64bbaf3c89b483cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(a0a9447878208a64bbaf3c89b483cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3304c3d1875e54050bf61525b0713f71') in 0.003683 seconds
+  Import took 0.007128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.762597 seconds.
+  path: Assets/Scripts/ShapeAction.cs
+  artifactKey: Guid(93ffbf30701a7b342aec5b0bcbb1a4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShapeAction.cs using Guid(93ffbf30701a7b342aec5b0bcbb1a4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784af3fe7d947e8ac51051428fb3fcfe') in 0.008266 seconds
+  Import took 0.010825 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000548 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.6 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1959.
+Total: 3.126400 ms (FindLiveObjects: 0.149400 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.683400 ms  DeleteObjects: 1.249800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.534658 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(ccce103fce1673246b194f8e46b22ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(ccce103fce1673246b194f8e46b22ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c25e65aad87b082b0050ece5cc2760') in 0.052550 seconds
+  Import took 0.055021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017925 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(ccce103fce1673246b194f8e46b22ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(ccce103fce1673246b194f8e46b22ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c25e65aad87b082b0050ece5cc2760') in 0.009402 seconds
+  Import took 0.011718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.141784 seconds.
+  path: Assets/Prefabs/Cube (1).prefab
+  artifactKey: Guid(eecd46421ab917541bed08c21016439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube (1).prefab using Guid(eecd46421ab917541bed08c21016439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed8c031c47c6d0c00f7833360964e02') in 0.014246 seconds
+  Import took 0.016851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.507244 seconds.
+  path: Assets/Prefabs/Cylinder.prefab
+  artifactKey: Guid(cb71f04f538a93d42a47a5d0f15c2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cylinder.prefab using Guid(cb71f04f538a93d42a47a5d0f15c2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77213fac27c7cd78125ffa3a2f41337') in 0.015038 seconds
+  Import took 0.017616 seconds .
+
