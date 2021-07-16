@@ -2,12 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManager : MonoBehaviour
+public class UIManager : MonoBehaviour
 {
+    public static ShapeAction shape;
+
     public GameObject centerPos;
     public GameObject cubePrefab;
     public GameObject spherePrefab;
     public GameObject cylinderPrefab;
+
+    public void JumpShape()
+    {
+        if (shape != null)
+        {
+            shape.Jump();
+            Debug.Log("Jump!");
+        }
+    }
+
+    public void ActionShape()
+    {
+        if (shape != null)
+        {
+            shape.Action();
+            Debug.Log("Action!!");
+        }
+    }
 
     public void CreateCube()
     {
@@ -28,6 +48,6 @@ public class SpawnManager : MonoBehaviour
     {
         Destroy(GameObject.FindGameObjectWithTag("Shape"));
         GameObject target = Instantiate(Obj, centerPos.transform.position, Obj.transform.rotation);
-        ActionManager.shape = target.GetComponent<ShapeAction>();
+        shape = target.GetComponent<ShapeAction>();
     }
 }

@@ -2822,7 +2822,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-16458
+  m_Name: pb_Mesh25376
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3219,7 +3219,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-6546
+  m_Name: pb_Mesh25250
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3383,7 +3383,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-10808
+  m_Name: pb_Mesh25236
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4020,8 +4020,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1057422290}
-        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+      - m_Target: {fileID: 1949964735}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: ActionShape
         m_Mode: 1
         m_Arguments:
@@ -4153,8 +4153,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 906197960}
-        m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
+      - m_Target: {fileID: 1949964735}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateCylinder
         m_Mode: 1
         m_Arguments:
@@ -4203,53 +4203,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843938442}
   m_CullTransparentMesh: 1
---- !u!1 &906197958
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 906197959}
-  - component: {fileID: 906197960}
-  m_Layer: 0
-  m_Name: SpawnManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &906197959
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906197958}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.824378, y: -7.4353504, z: 1.9420874}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &906197960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906197958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 624290a42d8b8f447b793c03dcb219ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  centerPos: {fileID: 807561533}
-  cubePrefab: {fileID: 1572680076389842541, guid: eecd46421ab917541bed08c21016439c, type: 3}
-  spherePrefab: {fileID: 5495731943210496904, guid: ccce103fce1673246b194f8e46b22ccb, type: 3}
-  cylinderPrefab: {fileID: 2763126810143544551, guid: cb71f04f538a93d42a47a5d0f15c2b45, type: 3}
 --- !u!1 &1036415762
 GameObject:
   m_ObjectHideFlags: 0
@@ -4698,8 +4651,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 906197960}
-        m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
+      - m_Target: {fileID: 1949964735}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateSphere
         m_Mode: 1
         m_Arguments:
@@ -5035,49 +4988,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1057422288
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1057422289}
-  - component: {fileID: 1057422290}
-  m_Layer: 0
-  m_Name: ActionManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1057422289
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1057422288}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.824378, y: -7.4353504, z: 1.9420874}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1057422290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1057422288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d8bb69fde08eb547ace87072e9d0577, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1363461507
 GameObject:
   m_ObjectHideFlags: 0
@@ -5161,8 +5071,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1057422290}
-        m_TargetAssemblyTypeName: ActionManager, Assembly-CSharp
+      - m_Target: {fileID: 1949964735}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: JumpShape
         m_Mode: 1
         m_Arguments:
@@ -5294,8 +5204,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 906197960}
-        m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
+      - m_Target: {fileID: 1949964735}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateCube
         m_Mode: 1
         m_Arguments:
@@ -5429,7 +5339,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-17566
+  m_Name: pb_Mesh25264
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5857,7 +5767,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-9374
+  m_Name: pb_Mesh25352
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6015,13 +5925,60 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1949964734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1949964736}
+  - component: {fileID: 1949964735}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1949964735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949964734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 121245264b6f8f248bfc9aa4c6452008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  centerPos: {fileID: 807561533}
+  cubePrefab: {fileID: 1572680076389842541, guid: eecd46421ab917541bed08c21016439c, type: 3}
+  spherePrefab: {fileID: 5495731943210496904, guid: ccce103fce1673246b194f8e46b22ccb, type: 3}
+  cylinderPrefab: {fileID: 2763126810143544551, guid: cb71f04f538a93d42a47a5d0f15c2b45, type: 3}
+--- !u!4 &1949964736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949964734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.824378, y: -7.4353504, z: 1.9420874}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2039450094
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-19060
+  m_Name: pb_Mesh25308
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
