@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class ShapeAction : MonoBehaviour
 {
-    private Rigidbody shapeRb;
+    protected Rigidbody shapeRb;
     public float jumpSpeed = 2f;
     
 

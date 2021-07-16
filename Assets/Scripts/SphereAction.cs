@@ -6,6 +6,6 @@ public class SphereAction : ShapeAction
 {
     public override void Action()
     {
-
+        transform.RotateAround(transform.position, Vector3.up, 30 * Time.deltaTime);
     }
 }
