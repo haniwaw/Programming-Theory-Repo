@@ -629,3 +629,19 @@ Received Import Request.
 Start importing Assets/Scripts/CubeAction.cs using Guid(34d197403e616fa4aaceb5b246ec3a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78de478ff0513c0e53234400037776b1') in 0.010759 seconds
   Import took 0.013767 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 621.030050 seconds.
+  path: Assets/Scripts/CylinderAction.cs
+  artifactKey: Guid(c32b5da4c0fb3704b8c2ed26d9e2a794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CylinderAction.cs using Guid(c32b5da4c0fb3704b8c2ed26d9e2a794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58796bf99983d26a71994732e0495393') in 0.008284 seconds
+  Import took 0.013224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.113097 seconds.
+  path: Assets/Scripts/CubeAction.cs
+  artifactKey: Guid(34d197403e616fa4aaceb5b246ec3a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CubeAction.cs using Guid(34d197403e616fa4aaceb5b246ec3a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9b57cd8467849aa469ffc70cab7c57') in 0.003217 seconds
+  Import took 0.006195 seconds .
+
