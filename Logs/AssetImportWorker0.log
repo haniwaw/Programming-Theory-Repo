@@ -675,3 +675,95 @@ System memory in use after: 73.9 MB.
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1986.
 Total: 3.517800 ms (FindLiveObjects: 0.141200 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.729000 ms  DeleteObjects: 1.606000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 790.171854 seconds.
+  path: Assets/Prefabs/Cylinder.prefab
+  artifactKey: Guid(cb71f04f538a93d42a47a5d0f15c2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cylinder.prefab using Guid(cb71f04f538a93d42a47a5d0f15c2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7893c35b55df92cdd35bf2b8500ff04') in 0.051877 seconds
+  Import took 0.054553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033058 seconds.
+  path: Assets/Prefabs/Cylinder.prefab
+  artifactKey: Guid(cb71f04f538a93d42a47a5d0f15c2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cylinder.prefab using Guid(cb71f04f538a93d42a47a5d0f15c2b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7893c35b55df92cdd35bf2b8500ff04') in 0.008931 seconds
+  Import took 0.011238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.334159 seconds.
+  path: Assets/Prefabs/Sphere.prefab
+  artifactKey: Guid(ccce103fce1673246b194f8e46b22ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sphere.prefab using Guid(ccce103fce1673246b194f8e46b22ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2800466791372b9dee024a786ad0a602') in 0.010720 seconds
+  Import took 0.013478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.323257 seconds.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(eecd46421ab917541bed08c21016439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(eecd46421ab917541bed08c21016439c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96e388d3a68034a5057870401ff3158') in 0.011499 seconds
+  Import took 0.014675 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 3.250900 ms (FindLiveObjects: 0.133900 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.707900 ms  DeleteObjects: 1.365200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 3.287400 ms (FindLiveObjects: 0.140400 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.672600 ms  DeleteObjects: 1.430900 ms)
+
