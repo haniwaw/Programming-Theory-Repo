@@ -6,6 +6,6 @@ public class CylinderAction : ShapeAction
 {
     public override void Action()
     {
-        transform.RotateAround(transform.position, Vector3.forward, 30 * Time.deltaTime);
+        transform.RotateAround(transform.position, Vector3.forward, actionPower);
     }
 }

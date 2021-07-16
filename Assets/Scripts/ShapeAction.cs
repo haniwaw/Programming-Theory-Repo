@@ -6,6 +6,7 @@ public abstract class ShapeAction : MonoBehaviour
 {
     protected Rigidbody shapeRb;
     public float jumpSpeed = 2f;
+    public float actionPower = 1;
     
 
     private void Start()
